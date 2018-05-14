@@ -89,7 +89,7 @@ public class Main {
             ConsumerSecret = properties.getProperty("OAuthConsumerSecret");
             AccessToken = properties.getProperty("OAuthAccessToken");
             AccessTokenSecret = properties.getProperty("OAuthAccessTokenSecret");
-            System.out.println( ansi().fg(GREEN).a("ConfigFileLoad completed").reset() );
+            System.out.println(ansi().fg(GREEN).a("Completed!! loading of config file").reset());
 
         } catch (IOException e) {
             e.printStackTrace();
