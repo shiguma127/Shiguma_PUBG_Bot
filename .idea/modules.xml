@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PUBGFallPlacePicker.iml" filepath="$PROJECT_DIR$/.idea/modules/PUBGFallPlacePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PUBGFallPlacePicker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PUBGFallPlacePicker_main.iml" group="PUBGFallPlacePicker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PUBGFallPlacePicker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PUBGFallPlacePicker_test.iml" group="PUBGFallPlacePicker" />
+    </modules>
+  </component>
+</project>
