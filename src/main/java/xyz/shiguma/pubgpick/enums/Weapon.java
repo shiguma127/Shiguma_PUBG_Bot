@@ -16,6 +16,7 @@ public enum Weapon {
     M16A4("M16A4"),
     M416("M416"),
     SCAR("SCAR-L"),
+    QBZ("QBZ"),
     AUG("AUG A3"),
     UZI("Micro UZi"),
     TOMMY("トミーガン"),
