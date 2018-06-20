@@ -5,7 +5,7 @@ import twitter4j.UserMentionEntity;
 import twitter4j.UserStreamAdapter;
 import xyz.shiguma.pubgpick.enums.Erangel;
 import xyz.shiguma.pubgpick.enums.Miramar;
-import xyz.shiguma.pubgpick.enums.Savage;
+import xyz.shiguma.pubgpick.enums.Sunhok;
 import xyz.shiguma.pubgpick.enums.Weapon;
 import xyz.shiguma.pubgpick.utils.Utils;
 
@@ -162,7 +162,7 @@ public class StreamListener extends UserStreamAdapter {
                         break;
 
                     case "-s":
-                        Savage randoms = Savage.getRandom();
+                        Sunhok randoms = Sunhok.getRandom();
                         this.main.sendReply(status, randoms.getName() + " が選ばれました。");
                         break;
 
@@ -183,9 +183,14 @@ public class StreamListener extends UserStreamAdapter {
                 this.main.sendMediaReply(status, randome.getname() + " が選ばれました。", "Media/Miramar/" + randome.getname() + ".jpg");
                 break;
 
+            case "森":
+                Sunhok randoms = Sunhok.getRandom();
+                this.main.sendMediaReply(status, randoms.getName() + " が選ばれました。", "Media/Sunhok/" + randoms.getName() + ".jpg");
+                break;
+
 
             case "help":
-                this.main.sendReply(status, "!pickのあとに-Eで島マップ,-Mで砂漠マップ,-SでSavageの地名をランダムで選びます。[使用例:!pick -E]\n※大文字小文字は区別されません。" + "\n");
+                this.main.sendReply(status, "!pickのあとに-Eで島マップ,-Mで砂漠マップ,-SでSanhok,の地名をランダムで選びます。[使用例:!pick -E]\n※大文字小文字は区別されません。" + "\n");
                 break;
 
             case "winner":
